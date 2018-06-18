@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "workbench.statusBar.feedback.visible": false,
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "python.linting.flake8Enabled": true,
+    "editor.rulers": [80,120],
+    "editor.fontSize": 13,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
+}
