@@ -96,5 +96,6 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Disable bash history substitution, because it corrupts vscode debugger
+set +H
 unsetopt HIST_VERIFY
 
