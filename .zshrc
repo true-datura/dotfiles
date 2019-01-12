@@ -99,3 +99,7 @@ source $ZSH/oh-my-zsh.sh
 set +H
 unsetopt HIST_VERIFY
 
+alias python=python3
+alias pip=pip3
+alias dck=docker-compose
+alias s='echo хуюдо && sudo'
