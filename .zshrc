@@ -95,11 +95,21 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+
+
+### MY CUSTOM BLOCK, SHOULD BE ADDED TO THE END OF ZSH, EXCEPT OF `plugins` variable above
+
+
 # Disable bash history substitution, because it corrupts vscode debugger
 set +H
 unsetopt HIST_VERIFY
 
-alias python=python3
-alias pip=pip3
 alias dck=docker-compose
 alias s='echo хуюдо && sudo'
+
+# settings for pyenv
+export PATH="/home/acid/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+screenfetch
