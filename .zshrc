@@ -107,9 +107,12 @@ unsetopt HIST_VERIFY
 alias dck=docker-compose
 alias s='echo хуюдо && sudo'
 
-# settings for pyenv
+# settings for pyenv, replace "acid" with current username
 export PATH="/home/acid/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# setting for pip install --user, replace "acid" with current username
+export PATH="/home/acid/.local/bin:$PATH"
 
 screenfetch
