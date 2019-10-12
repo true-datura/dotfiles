@@ -52,6 +52,19 @@
 48) screenfetch
 49) virtualenv (`sudo -H pip install virtualenv`, only after all aliasing and pip installing will be done)
 
+
+### Firefox nightly addons
+1) Decentraleyes
+2) Firefox Multi-Account Containers
+3) LanguageTool
+4) React Developer Tools
+5) Todoist
+6) Tomato Clock
+7) uBlock Origin
+8) LastPass
+9) Redirector
+    1) Import settings from `Redirector.json`
+
 ## Some configuration, in case xfce, order doesn't matter
 
 1) Change guake hotkey to `Home`
