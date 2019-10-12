@@ -5,7 +5,7 @@
 1) guake (from sources)
 2) vscode
 3) dropbox client
-4) firefox nightly
+4) firefox nightly (set proxy config from `.pac` file for `.onion` access)
 5) telegram
 6) jetbrains toolbox
 7) pycharm
