@@ -35,22 +35,24 @@
 31) remmina
 32) transmission
 33) vlc
-34) tor
-35) tor browser (extract in `Soft`, start it, and create link on panel)
-36) openvpn
-37) python3-dev
-38) pip (follow instructions on readthedocs, don't forget -H flag for sudo, and first make python3 alias with instruction below)
-39) pipenv (currently `pip install --user --upgrade pipenv`, but may appear in popular distros in future, `~/.local/bin` should be in `PATH`)
-40) clang
-41) docker (guide on official site, as for `Sat Oct  5 20:46:03 EEST 2019` `add-apt-repository` broken, so deb source should be added manually. After installation proceed post-installation steps in docs)
-42) docker-compose (`pip install --user docker-compose`)
-43) zsh + oh my zsh
-44) git
-45) build-essential
-46) ipython (`pip install --user jupyter`)
-47) pyenv,  [here is the installer](https://github.com/pyenv/pyenv-installer)
-48) screenfetch
-49) virtualenv (`sudo -H pip install virtualenv`, only after all aliasing and pip installing will be done)
+34) apt-transport-tor
+35) tor (add nightly package repositories into `/etc/apt/sources.list`, use `.onion` repo links, [guide](https://2019.www.torproject.org/docs/debian.html.en#apt-over-tor))
+36) deb.torproject.org-keyring
+37) tor browser (extract in `Soft`, start it, and create link on panel)
+38) openvpn
+39) python3-dev
+40) pip (follow instructions on readthedocs, don't forget -H flag for sudo, and first make python3 alias with instruction below)
+41) pipenv (currently `pip install --user --upgrade pipenv`, but may appear in popular distros in future, `~/.local/bin` should be in `PATH`)
+42) clang
+43) docker (guide on official site, as for `Sat Oct  5 20:46:03 EEST 2019` `add-apt-repository` broken, so deb source should be added manually. After installation proceed post-installation steps in docs)
+44) docker-compose (`pip install --user docker-compose`)
+45) zsh + oh my zsh
+46) git
+47) build-essential
+48) ipython (`pip install --user jupyter`)
+49) pyenv,  [here is the installer](https://github.com/pyenv/pyenv-installer)
+50) screenfetch
+51) virtualenv (`sudo -H pip install virtualenv`, only after all aliasing and pip installing will be done)
 
 
 ### Firefox nightly addons
