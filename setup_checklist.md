@@ -94,3 +94,9 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 [ArchWiki](https://wiki.archlinux.org/index.php/Dell_XPS_13_(9360)#Wireless) + [Dell driver](https://github.com/kvalo/ath10k-firmware). Thanks [kvalo](https://github.com/kvalo).
 Also, update BIOS.
+
+
+### proxy.pac
+
+To specify `.pac` path in forefox, you should go `Preferences` -> `Network Settings` -> `Automatic proxy configuration URL`
+and specify something like `file://<path_to_dot_pac_file>`.
