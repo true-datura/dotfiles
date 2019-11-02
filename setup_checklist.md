@@ -50,7 +50,7 @@
 46) git
 47) build-essential
 48) ipython (`pip install --user jupyter`)
-49) pyenv,  [here is the installer](https://github.com/pyenv/pyenv-installer)
+49) pyenv,  [here is the installer](https://github.com/pyenv/pyenv-installer), don't forget to install python build dependencies
 50) screenfetch
 51) virtualenv (`sudo -H pip install virtualenv`, only after all aliasing and pip installing will be done)
 
