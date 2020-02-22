@@ -115,3 +115,19 @@ Also, update BIOS.
 
 To specify `.pac` path in forefox, you should go `Preferences` -> `Network Settings` -> `Automatic proxy configuration URL`
 and specify something like `file://<path_to_dot_pac_file>`.
+
+
+### Digital wellbeing
+
+#### Loading pause
+1) https://github.com/OskarDamkjaer/FirefoxDelayWebpage
+2) List of energy-consuming resources:
+```
+hckrnews\.com
+reddit\.com
+facebook\.com
+news\.ycombinator\.com
+youtube\.com
+linux\.org.ru
+habr\.com
+```
