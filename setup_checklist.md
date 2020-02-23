@@ -53,6 +53,8 @@
 49) pyenv,  [here is the installer](https://github.com/pyenv/pyenv-installer), don't forget to install python build dependencies
 50) screenfetch
 51) virtualenv (`sudo -H pip install virtualenv`, only after all aliasing and pip installing will be done)
+52) poetry
+53) python3-venv
 
 
 ### Firefox nightly addons

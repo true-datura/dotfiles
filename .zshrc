@@ -106,6 +106,7 @@ unsetopt HIST_VERIFY
 
 alias dck=docker-compose
 alias s='echo хуюдо && sudo'
+alias poetry="python3 $HOME/.poetry/bin/poetry"
 
 # settings for pyenv, replace "acid" with current username
 export PATH="/home/acid/.pyenv/bin:$PATH"
